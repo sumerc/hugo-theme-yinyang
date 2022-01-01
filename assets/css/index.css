@@ -1,7 +1,7 @@
 /* global */
 
 body {
-  font-family: "Bree Serif", sans-serif;
+  font-family: "Arvo", sans-serif;
   -webkit-font-smoothing: antialiased;
   margin: 0 20px;
 }
@@ -20,6 +20,7 @@ a {
 a:hover {
   font-weight: 600;
   text-decoration: underline;
+  color:#F41D92;
 }
 
 .post-ads {
@@ -47,6 +48,8 @@ a:hover {
   font-size: 85%;
   background-color: #f6f8fa;
   border-radius: 6px;
+  font-family: Fira Code;
+  font-weight: 600;
 }
 
 /* reset code */
@@ -71,10 +74,10 @@ a:hover {
 }
 
 .header-title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   margin-top: 32px;
-  font-family: "Bungee Shade", sans-serif;
+  font-family: "Arvo", sans-serif;
 }
 .header-title a {
   text-decoration: none;
