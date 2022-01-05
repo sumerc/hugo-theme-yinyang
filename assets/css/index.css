@@ -4,6 +4,7 @@ body {
   font-family: "Arvo", sans-serif;
   -webkit-font-smoothing: antialiased;
   margin: 0 20px;
+  background-color: bisque;
 }
 
 article {
@@ -74,10 +75,10 @@ a:hover {
 }
 
 .header-title {
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 2.5rem;
+  font-weight: 900;
   margin-top: 32px;
-  font-family: "Arvo", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .header-title a {
   text-decoration: none;
