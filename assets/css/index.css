@@ -114,10 +114,9 @@ a:hover {
 }
 
 .posts-date {
-  color: #747474;
   font-weight: 400;
   font-size: 0.7rem;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
 }
 
 .posts-line {
