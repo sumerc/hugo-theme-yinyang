@@ -1,7 +1,7 @@
 /* global */
 
 body {
-  font-family: "Arvo", sans-serif;
+  font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   margin: 0 20px;
   background-color: bisque;
@@ -19,7 +19,6 @@ a {
 }
 
 a:hover {
-  font-weight: 600;
   text-decoration: underline;
   color:#F41D92;
 }
@@ -29,7 +28,7 @@ a:hover {
 }
 
 .markdown-body {
-  font-size: 18px;
+  font-size: 16px;
   max-width: 100%;
 }
 
@@ -75,17 +74,17 @@ a:hover {
 }
 
 .header-title {
-  font-size: 2rem;
-  font-weight: 900;
+  font-size: 1.6rem;
+  font-weight: 600;
   margin-top: 32px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .header-title a {
   text-decoration: none;
 }
 
 .header-subtitle {
-  color: #666;
+  color: #747474;
 }
 
 .header-items {
@@ -94,6 +93,7 @@ a:hover {
 
 .header-item {
   margin: 0 5px;
+  font-weight: 600;
 }
 
 .header-line {
@@ -111,6 +111,13 @@ a:hover {
 
 #posts-list {
   min-height: 600px;
+}
+
+.posts-date {
+  color: #747474;
+  font-weight: 400;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
 }
 
 .posts-line {
@@ -194,7 +201,7 @@ a:hover {
 
 .post-content p {
   hyphens: auto;
-  line-height: 1.8;
+  line-height: 1.6;
   /* text-align: justify; */
   text-justify: ideographic;
   margin-bottom: 1em;
