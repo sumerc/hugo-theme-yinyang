@@ -54,7 +54,7 @@ a:hover {
 
 .markdown-body code {
   padding: 0.2em 0.4em;
-  font-size: 85%;
+  font-size: 80%;
   background-color: #f6f8fa;
   border-radius: 6px;
   font-family: Fira Code;
@@ -65,7 +65,7 @@ a:hover {
 
 .markdown-body pre > code {
   padding: 0;
-  font-size: 100%;
+  font-size: 80%;
   background-color: inherit;
   border: 0;
 }
