@@ -31,7 +31,7 @@
           {{ end }}
         </header>
 
-        <div class="post-content markdown-body">
+        <div class="post-content markdown-body" data-progress-indicator>
           {{ .Site.Params.postHeaderContent | safeHTML }}
           {{ .Content }}
         </div>

@@ -23,6 +23,15 @@ a:hover {
   color:#F41D92;
 }
 
+.progress-indicator {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  height: 3px;
+  background-color: #F41D92;
+}
+
 .post-ads {
   margin: 50px 0;
 }
