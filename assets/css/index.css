@@ -8,7 +8,7 @@ body {
 }
 
 article {
-  max-width: 800px;
+  max-width: 550px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -20,7 +20,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color:#F41D92;
+  color: #F41D92;
 }
 
 .progress-indicator {
@@ -63,7 +63,7 @@ a:hover {
 
 /* reset code */
 
-.markdown-body pre > code {
+.markdown-body pre>code {
   padding: 0;
   font-size: 80%;
   background-color: inherit;
@@ -83,11 +83,12 @@ a:hover {
 }
 
 .header-title {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: 600;
   margin-top: 32px;
   font-family: "Inter", sans-serif;
 }
+
 .header-title a {
   text-decoration: none;
 }
@@ -107,7 +108,7 @@ a:hover {
 
 .header-line {
   width: 100%;
-  border-width: 2px;
+  border-width: 1px;
   border-color: #482936;
   border-style: solid none none none;
 }
@@ -123,14 +124,15 @@ a:hover {
 }
 
 .posts-date {
-
+  color: #747474;
   font-weight: 400;
   font-size: 0.7rem;
   letter-spacing: 1.5px;
 }
 
 .posts-title {
-  font-size: 1.0rem;
+  font-size: 1.6rem;
+  font-weight: bold;
 }
 
 .posts-line {
@@ -183,6 +185,8 @@ a:hover {
 .post-title {
   font-size: 2rem;
   font-weight: 600;
+  margin-block-start: 0.0em;
+  margin-block-end: 0.0em;
 }
 
 .post-tags {
@@ -202,6 +206,18 @@ a:hover {
 .post-author {
   float: right;
   font-weight: 600;
+}
+
+hr {
+  margin: 2em 0;
+  border: 0;
+}
+
+hr:after {
+  content: "...";
+  text-align: center;
+  display: block;
+  letter-spacing: 0.6em;
 }
 
 .page-content {
@@ -270,6 +286,7 @@ a:hover {
 }
 
 @media screen and (max-width: 600px) {
+
   .header-title,
   .header-subtitle,
   .header-items {
@@ -283,11 +300,12 @@ a:hover {
   .markdown-body {
     font-size: 16px;
   }
+
   .post-title {
     font-size: 2rem;
   }
-  .post-content p {
-  }
+
+  .post-content p {}
 }
 
 @media screen and (max-width: 48em) {
