@@ -340,7 +340,7 @@ hr:after {
   margin: 0;
   border: 0;
   width: auto;
-  overflow: auto;
+  overflow: hidden;
   display: block;
 }
 
