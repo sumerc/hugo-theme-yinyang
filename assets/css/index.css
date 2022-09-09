@@ -1,7 +1,8 @@
 /* global */
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "inter", sans-serif;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   margin: 0 20px;
   background-color: #FED6A1;
