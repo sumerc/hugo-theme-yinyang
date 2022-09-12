@@ -12,6 +12,10 @@ strong {
   font-weight: 600;
 }
 
+ol {
+    padding-inline-start: 20px;
+}
+
 article {
   max-width: 550px;
   margin-left: auto;
@@ -186,7 +190,7 @@ a:hover {
 
 .post-title {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 900;
   margin-block-start: 0.0em;
   margin-block-end: 0.0em;
 }
