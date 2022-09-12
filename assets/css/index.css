@@ -8,6 +8,10 @@ body {
   background-color: #FED6A1;
 }
 
+strong {
+  font-weight: 600;
+}
+
 article {
   max-width: 550px;
   margin-left: auto;
