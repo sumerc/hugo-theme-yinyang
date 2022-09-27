@@ -82,10 +82,6 @@ a:hover {
   font-weight: 600;
 }
 
-div.highlight pre {
-  overflow-x: scroll;
-} 
-
 /* reset code */
 
 .markdown-body pre>code {
