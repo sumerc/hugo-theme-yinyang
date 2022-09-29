@@ -15,7 +15,7 @@
           <div class="row post-desc">
             <div class="col-xs-6">
               {{ if .Date }}
-              <time class="posts-date" datetime="{{ .Date.Format "02 Jan 2006" }}"><b>{{ .Date.Format "02 Jan 2006"}}</b></time>
+              <time class="posts-date" datetime="{{ .Date.Format "02 Jan 2006" }}"><b>{{ .Date.Format "02 Jan 2006"}} · {{ math.Round (div (countwords .Content) 220.0) }} min read</b></time>
               {{ end }}
             </div>
           </div>
