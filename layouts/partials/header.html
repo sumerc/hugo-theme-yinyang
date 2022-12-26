@@ -1,16 +1,11 @@
 {{ $curLanguageName := .Site.Language.LanguageName }}
 <header>
-  <div>
-    <div style="float: left; margin-right:16px; margin-top: -24px;">
-      <img src="meavatar.png" height=128>
-    </div>
     <div class="header-title">
       <a href="{{ .Site.LanguagePrefix }}/"
         >{{ or .Site.Params.headTitle .Site.Author.name }}</a
       >
     </div>
     <div class="header-subtitle">{{ .Site.Params.Description }}</div>
-  </div>
 </header>
 <div class="row end-md center-xs header-items">
   {{ range .Site.Params.socials }}
