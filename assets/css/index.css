@@ -6,6 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   margin: 0 20px;
   background-color: #FED6A1;
+
+  background-image: radial-gradient(darkgray 1px, transparent 0);
+  background-size: 40px 40px;
+  background-position: -19px -19px;
+
 }
 
 blockquote {
