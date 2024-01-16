@@ -114,6 +114,51 @@ a:hover {
   font-family: "Inter", sans-serif;
 }
 
+.logo__cursor {
+  display: inline-block;
+  width: 10px;
+  height: 1rem;
+  background: #F41D92;
+  border-radius: 1px;
+  -webkit-animation: cursor 1s infinite;
+  animation: cursor 1s infinite;
+}
+@-webkit-keyframes cursor {
+  0% {
+      opacity: 0
+  }
+
+  50% {
+      opacity: 1
+  }
+
+  to {
+      opacity: 0
+  }
+}
+
+@keyframes cursor {
+  0% {
+      opacity: 0
+  }
+
+  50% {
+      opacity: 1
+  }
+
+  to {
+      opacity: 0
+  }
+}
+.logo__mark .greater-icon {
+  width: 0.95rem;
+  height: 100%;
+}
+svg:not(:root) {
+  overflow-clip-margin: content-box;
+  overflow: hidden;
+}
+
 .header-title a {
   text-decoration: none;
 }
