@@ -1,11 +1,20 @@
 {{ $curLanguageName := .Site.Language.LanguageName }}
 <header>
-  <a href="/" class="logo" style="text-decoration: none;">  
-    <div class="header-title">
-      <a href="{{ .Site.LanguagePrefix }}/">{{ or .Site.Params.headTitle .Site.Author.name }}</a>
-      <span class="logo__cursor"></span>
-    </div>
-    <div class="header-subtitle">{{ .Site.Params.Description }}</div>
+  <a href="/" class="logo" style="text-decoration: none;">
+      <div class="header-title">
+        <a href="{{ .Site.LanguagePrefix }}/">{{ or .Site.Params.headTitle .Site.Author.name }}</a>
+        <span class="logo__cursor"></span>
+        <a href="/index.xml" target="_blank" style="float: right;">
+            <i class="fas fa-rss"></i>
+        </a>
+        <a href="https://twitter.com/sumercip" target="_blank" style="float: right; margin-right: 8px;">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://github.com/sumerc" target="_blank" style="float: right; margin-right: 8px;">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="header-subtitle">{{ .Site.Params.Description }}</div>
 </header>
 <div class="row end-md center-xs header-items">
   {{ range .Site.Params.socials }}
@@ -26,7 +35,7 @@
   {{ end }} {{ end }}
 </div>
 <div class="header-line"></div>
-
+&nbsp;
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154918616-1"></script>
 <script>
