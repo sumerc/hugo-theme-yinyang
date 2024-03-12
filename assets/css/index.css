@@ -56,7 +56,7 @@ a:hover {
   top: 0;
   width: 100%;
   z-index: 10;
-  height: 3px;
+  height: 5px;
   background-color: #F41D92;
 }
 
@@ -65,7 +65,7 @@ a:hover {
 }
 
 .markdown-body {
-  font-size: 16px;
+  font-size: 18px;
   max-width: 100%;
 }
 
