@@ -17,16 +17,6 @@
     </a>
   </div>
   {{ end }}
-  |
-  {{ range .Site.Params.socials }}
-  <div class="header-item">
-    <a href="{{ .link }}" target="_blank">
-      {{ if .icon }}
-        <i class="{{ .icon }}"></i>
-      {{ end }}
-    </a>
-  </div>
-  {{ end }}
 </div>
 <div class="row end-xs">
   {{ range .Site.Languages -}} {{ if ne .LanguageName $curLanguageName }}
