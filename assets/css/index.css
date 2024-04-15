@@ -77,7 +77,12 @@ a:hover {
 .markdown-body pre {
   padding: 4px;
   overflow: auto;
-  border-radius: 10px;
+  border-radius: 1px;
+  padding: 20px;
+  box-shadow: 6px 6px 0 rgba(0,0,0,0.1);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  margin: 0;
+  line-height: normal;
 }
 
 .markdown-body code {
@@ -386,7 +391,7 @@ hr:after {
 
 /* Background */
 .chroma {
-  background-color: transparent;
+  background-color: #fdf2e6;
 }
 
 /* Other */
