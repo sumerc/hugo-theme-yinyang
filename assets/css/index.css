@@ -824,3 +824,44 @@ hr:after {
 .chroma .w {
   color: #bbbbbb
 }
+
+details.toc-container summary {
+  padding: 0.5em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+details.toc-container {
+  border: 1px solid var(--stable-color);
+  background-color: #fdf2e6;
+  box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.15);
+}
+
+.toc {
+  padding: 0.5em;
+}
+
+.toc a {
+  display: block;
+  text-decoration: underline;
+}
+
+details[open] > summary:first-of-type {
+  list-style-type: disclosure-open;
+}
+user agent stylesheet
+details > summary:first-of-type {
+  list-style: inside disclosure-closed;
+}
+
+h2.post-desc {
+  margin: unset;
+  color: gray;
+  font-size: 1.7em;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+h1.post-title {
+  line-height: 1.1;
+}
