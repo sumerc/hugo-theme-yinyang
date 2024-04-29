@@ -89,8 +89,9 @@ a:hover {
 }
 
 .markdown-body code {
-  border-radius: 6px;
+  border-radius: 1px;
   font-family: monospace, Fira Code;
+  background: #fdf2e6
 }
 
 /* reset code */
