@@ -91,7 +91,7 @@ a:hover {
 .markdown-body code {
   border-radius: 1px;
   font-family: monospace, Fira Code;
-  background: #fdf2e6
+  font-size: 0.9em;
 }
 
 /* reset code */
