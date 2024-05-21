@@ -100,6 +100,7 @@ a:hover {
   background-color: #ffdeb4;
   padding-left: .25rem;
   padding-right: .25rem;
+  font-size: 0.8em;
   font-family: monospace, Fira Code;
   border: 1px solid #414141;
   margin-bottom: 2px;
