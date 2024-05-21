@@ -88,10 +88,22 @@ a:hover {
   line-height: normal;
 }
 
-.markdown-body code {
+/* .markdown-body code {
   border-radius: 1px;
   font-family: monospace, Fira Code;
   font-size: 0.9em;
+} */
+
+.markdown-body code {
+  display: inline-block;
+  --tw-bg-opacity: 1;
+  background-color: #ffdeb4;
+  padding-left: .25rem;
+  padding-right: .25rem;
+  font-family: monospace, Fira Code;
+  border: 1px solid #414141;
+  margin-bottom: 2px;
+  border-radius: 4px;
 }
 
 /* reset code */
