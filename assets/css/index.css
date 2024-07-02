@@ -379,7 +379,6 @@ hr:after {
 
 @media screen and (max-width: 600px) {
 
-  .header-title,
   .header-subtitle,
   .header-items {
     text-align: center;
