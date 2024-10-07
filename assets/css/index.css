@@ -97,21 +97,26 @@ a:hover {
 .markdown-body code {
   display: inline-block;
   --tw-bg-opacity: 1;
-  background-color: #ffdeb4;
-  padding-left: .25rem;
-  padding-right: .25rem;
+  /*background-color: #ffdeb4;*/
+  /*padding-left: .25rem;
+  padding-right: .25rem;*/
   font-size: 0.8em;
   font-family: monospace, Fira Code;
-  border: 1px solid #414141;
+  /*border: 1px solid #414141;*/
   margin-bottom: 2px;
   border-radius: 4px;
+}
+
+.markdown-body a code {
+  text-decoration: underline;
+  color: inherit;
 }
 
 /* reset code */
 
 .markdown-body pre>code {
   padding: 0;
-  font-size: 100%;
+  font-size: 80%;
   background-color: inherit;
   border: 0;
 }
