@@ -267,11 +267,11 @@ svg:not(:root) {
 
 /* post */
 
+
 .post-content img {
   max-width: 100%;
   display: block;
-  margin-right: auto;
-  margin-top: 12px;
+  margin: 0 auto;
 }
 
 .post-header {
