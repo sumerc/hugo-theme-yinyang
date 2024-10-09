@@ -32,6 +32,15 @@
             <ul>
                 {{ range .Params.toc }}
                     <li><a href="#{{ .id }}">{{ .title }}</a></li>
+
+                    {{ if .subitems }}
+                    <ul>
+                      {{ range .subitems }}
+                        <li><a href="#{{ .id }}">{{ .title }}</a></li>
+                      {{ end }}
+                    </ul>
+                    {{ end }}
+
                 {{ end }}
             </ul>
           </div>
