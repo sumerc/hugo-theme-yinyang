@@ -2,7 +2,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-  line-height: 1.6;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   margin: 0 20px;
   background-color: #FED6A1;
@@ -446,7 +446,7 @@ hr:after {
 .chroma .hl {
   display: block;
   width: 100%;
-  background-color: #ffffcc
+  background-color: rgb(250, 250, 100)
 }
 
 /* LineNumbersTable */
