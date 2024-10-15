@@ -883,3 +883,71 @@ h2.post-desc {
 h1.post-title {
   line-height: 1.1;
 }
+
+.citation {
+  position: relative;
+  cursor: pointer;
+  color: #5e1fff;
+  padding-bottom: 10px;
+  font-size: 75%;
+  vertical-align: super;
+}
+
+.citation-tooltip {
+  position: absolute;
+  top: calc(100%);
+  left: -10px;
+  border: 1px solid #000;
+  padding: 15px; /* Increase padding to extend hover area */
+  border-radius: 8px;
+  box-shadow: rgba(28, 14, 64, 0.15) 0px 0.125rem 0.5rem;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s ease;
+  z-index: 10;
+  max-width: 316px;
+  width: 316px;
+  word-wrap: break-word;
+  color: #333;
+  background-color: #fdf2e6;
+}
+
+.citation:hover .citation-tooltip,
+.citation-tooltip:hover,
+.citation:focus-within .citation-tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Arrow styling */
+.citation-tooltip::after {
+  content: "";
+  position: absolute;
+  top: -13px; /* Position arrow just above the tooltip */
+  left: 5%; /* Position arrow directly under the cursor */
+  transform: translateX(-50%);
+  border-width: 7px;
+  border-style: solid;
+  border-color: transparent transparent #fdf2e6 transparent; /* Arrow with same background color */
+}
+
+.citation-tooltip::before {
+  content: "";
+  position: absolute;
+  top: -16px; /* Position arrow border slightly above */
+  left: 5%; /* Position arrow border directly under the cursor */
+  transform: translateX(-50%);
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent transparent #000 transparent; /* Arrow border with same border color as tooltip */
+}
+
+/* Extend hover area around tooltip */
+.citation-tooltip::before, .citation-tooltip::after {
+  pointer-events: none;
+}
+
+.citation:hover,
+.citation-tooltip:hover {
+  outline: none;
+}
