@@ -16,6 +16,10 @@ h1 {
   font-size: 1.8em;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter Tight', sans-serif;
+}
+
 blockquote {
   margin-block-start: 0;
   margin-block-end: 0;
@@ -25,6 +29,8 @@ blockquote {
   padding-left: 20px;
   font-style:italic;
   color: #666;
+  font-family: lora;
+  font-size: larger;
 }
 
 .blockquote p {
@@ -229,6 +235,7 @@ svg:not(:root) {
 .posts-title {
   font-size: 1.6rem;
   font-weight: 900;
+  font-family: 'Inter Tight';
 }
 
 .posts-line {
