@@ -45,6 +45,10 @@ ol {
     padding-inline-start: 20px;
 }
 
+ul {
+  padding-inline-start: 30px;
+}
+
 article {
   max-width: 680px;
   margin-left: auto;
