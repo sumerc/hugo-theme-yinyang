@@ -30,7 +30,7 @@ blockquote {
   font-style:italic;
   color: #747474;
   font-family: Crimson Text, serif;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .blockquote p {
@@ -408,7 +408,7 @@ hr:after {
   }
 
   .post-title {
-    font-size: 2.4em;
+    font-size: 2.0em;
   }
 
   .post-content p {}
