@@ -15,13 +15,13 @@
           <div class="row post-desc">
             <div class="col-xs-6">
               {{ if .Date }}
-              <time class="posts-date" datetime="{{ .Date.Format "02 Jan 2006" }}"><b>{{ .Date.Format "02 Jan 2006"}} · {{ math.Round (div (countwords .Content) 220.0) }} min read</b></time>
+              <time class="posts-date" datetime="{{ .Date.Format "02 Jan 2006" }}">{{ .Date.Format "02 Jan 2006"}} · {{ math.Round (div (countwords .Content) 220.0) }} min read</time>
               {{ end }}
             </div>
           </div>
           {{ end }}
           
-          <h1 class="post-title">{{ .Title }}</h1>
+          <h1 class="post-title">{{ .Title | safeHTML }}</h1>
           <h2 class="post-desc">{{ .Description }}</h2>
         </header>
       
@@ -37,6 +37,13 @@
                     <ul>
                       {{ range .subitems }}
                         <li><a href="#{{ .id }}">{{ .title }}</a></li>
+                        {{ if .subitems }}
+                        <ul>
+                          {{ range .subitems }}
+                            <li><a href="#{{ .id }}">{{ .title }}</a></li>
+                          {{ end }}
+                        </ul>
+                        {{ end }}
                       {{ end }}
                     </ul>
                     {{ end }}

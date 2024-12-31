@@ -17,7 +17,7 @@
             {{ range .Pages }}
             <div class="row posts-line">
               <div class="posts-date col-xs-2">
-                <time datetime="{{ .Date.Format "02 Jan 2006" }}"><b>{{ .Date.Format "02 Jan 2006"}}</b></time>
+                <time datetime="{{ .Date.Format "02 Jan 2006" }}">{{ .Date.Format "02 Jan 2006"}}</time>
               </div>
               <div class="posts-title col-xs-10">
                 <div class="row">
