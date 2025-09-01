@@ -144,9 +144,9 @@ a:hover {
 
 .header-title {
   font-size: 1.3rem;
-  font-weight: 900;
+  font-weight: 700;
   margin-top: 32px;
-  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .logo__cursor {
@@ -239,7 +239,7 @@ svg:not(:root) {
 
 .posts-title {
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 700;
   font-family: 'Poppins';
 }
 
