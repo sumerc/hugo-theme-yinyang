@@ -103,7 +103,7 @@ a:hover {
 
 /* .markdown-body code {
   border-radius: 1px;
-  font-family: monospace, Fira Code;
+  font-family: 'Geist Mono', monospace;
   font-size: 0.9em;
 } */
 
@@ -114,7 +114,7 @@ a:hover {
   /*padding-left: .25rem;
   padding-right: .25rem;*/
   font-size: 0.8em;
-  font-family: monospace, Fira Code;
+  font-family: 'Geist Mono', monospace;
   /*border: 1px solid #414141;*/
   margin-bottom: 2px;
   border-radius: 4px;
